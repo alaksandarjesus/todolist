@@ -1,0 +1,16 @@
+<div class="container">
+	<div class="col-sm-6 col-sm-offset-3">
+		<div class="form-group" ng-if="update.task.task">
+			<label for="">Task</label>
+			<input type="text" ng-model="update.task.task" class="form-control">
+		</div>
+		<div class="form-group" ng-if="update.task.status">
+			<label for="">Status</label>
+			<select ng-model="update.task.status" class="form-control">
+				<option value="0">Pending</option>
+				<option value="1">Completed</option>
+			</select>
+		</div>
+		<button class="btn btn-warning" type="button" ng-click="update.update()">Update</button>
+	</div>
+</div>

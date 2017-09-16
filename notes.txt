@@ -1,0 +1,17 @@
+Angular project
+	->lodash -> javascript functions
+	-> moment -> general working with time
+
+Directives
+	-> angular ui bootstrap
+	-> ui-select
+	-> ui-grid
+
+
+
+Fork
+ work on home page 
+ 	-> populate all the tasks
+ 	-> create a tasks by opening a modal
+ 	-> update a task by opening a modal
+ 	-> delete a task
